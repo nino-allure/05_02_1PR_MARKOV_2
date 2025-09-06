@@ -24,5 +24,16 @@ namespace TONYMONTANA
         {
             InitializeComponent();
         }
+
+        private void Calculate_Click(object sender, RoutedEventArgs e)
+        {
+            if (double.TryParse(TextBoxX.Text, out double xValue) && double.TryParse(TextBoxX.Text, out double yValue) && double.TryParse(TextBoxX.Text, out double zValue))
+            {
+                double result = ((xValue * xValue) - (7 * xValue) + 10) / ((xValue * xValue) - (8 * xValue) + 12);
+                resultLabel.Content = result;
+            }
+            else { }
+
+        }
     }
 }

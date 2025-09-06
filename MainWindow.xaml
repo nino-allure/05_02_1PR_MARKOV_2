@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="TextBoxX" HorizontalAlignment="Center" Margin="0,157,0,0" TextWrapping="Wrap" Text="Enter X" VerticalAlignment="Top" Width="164" Height="26"/>
+        <TextBox x:Name="TextBoxY" HorizontalAlignment="Center" Margin="0,190,0,0" TextWrapping="Wrap" Text="Enter Y" VerticalAlignment="Top" Width="164" Height="25"/>
+        <TextBox x:Name="TextBoxZ" HorizontalAlignment="Center" Margin="0,222,0,0" TextWrapping="Wrap" Text="Enter Z" VerticalAlignment="Top" Width="164" Height="25"/>
+        <Label  x:Name="resultLabel" Content="RESULT" HorizontalAlignment="Left" Margin="318,252,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.434,0.153" Height="37" Width="67"/>
+        <Image Margin="340,94,353,284" Source="/Image1.png" Stretch="Fill"/>
+        <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="Center" Margin="0,294,0,0" VerticalAlignment="Top" Width="164" Height="28" Click="Calculate_Click"/>
+
     </Grid>
 </Window>
