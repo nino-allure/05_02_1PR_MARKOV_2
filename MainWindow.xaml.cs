@@ -33,7 +33,7 @@ namespace TONYMONTANA
                 resultLabel.Content = result;
             }
             else { )
-                //nice
+                //nice!
 
         }
     }
