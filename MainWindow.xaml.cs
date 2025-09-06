@@ -32,7 +32,8 @@ namespace TONYMONTANA
                 double result = ((xValue * xValue) - (7 * xValue) + 10) / ((xValue * xValue) - (8 * xValue) + 12);
                 resultLabel.Content = result;
             }
-            else { }
+            else { )
+                //nice
 
         }
     }
